@@ -17,6 +17,9 @@
 	opacity: 1;
 	visibility: visible;
 }
+.autopic_cont{
+	overflow-y: scroll;
+}
 .contTab{
 	display: inline-block;
 	width: 145px;
@@ -25,7 +28,6 @@
 	float: left;
 	margin-right: 3px;
 }
-
 .autopic_cont::-webkit-scrollbar-button {
 	width:5px;
 	height:0px;
