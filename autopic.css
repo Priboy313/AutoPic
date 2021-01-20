@@ -1,33 +1,12 @@
-.emoji_smile ._emoji_btn{
-	padding-right: 3px;
-}
+
 .im-chat-input--attach{
 	display: none;
 }
-.autopic_expanded{
-	opacity: 0;
-	visibility: hidden;
-	
-	transition-property:  opacity, visibility;
-    transition-duration: .3s, .3s;
-    transition-delay: .15s, .15s;
+._emoji_btn{
+	padding-right: 7px;
+}
 
-}
-.autopic:hover .autopic_expanded{
-	opacity: 1;
-	visibility: visible;
-}
-.autopic_cont{
-	overflow-y: scroll;
-}
-.contTab{
-	display: inline-block;
-	width: 145px;
-}
-.contL{
-	float: left;
-	margin-right: 3px;
-}
+
 .autopic_cont::-webkit-scrollbar-button {
 	width:5px;
 	height:0px;
