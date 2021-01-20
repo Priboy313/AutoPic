@@ -1,4 +1,3 @@
-
 	document.addEventListener("keydown", function(event) {
 	if(event.keyCode == 113 && document.activeElement.classList.contains("im-chat-input--text")){
 		var field = document.activeElement;
@@ -21,24 +20,48 @@
 	//миниатюра
 	var picwin = document.createElement("div");
 		picwin.className = "autopic";
+		picwin.style.display = "block";
+		picwin.style.fontSize = "23px";
+		picwin.style.width = "23px";
+		picwin.style.height = "23px";
+		picwin.style.margin = "auto 2px auto -3px";
+		picwin.style.cursor = "default";
 			picwin_pic = document.createElement("img");
 			picwin_pic.src = "data:image/svg+xml;charset=utf-8,%3Csvg%20fill%3D%22none%22%20height%3D%2220%22%20width%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20clip-rule%3D%22evenodd%22%20d%3D%22M6.84%2016.44c.76.06%201.74.06%203.16.06%201.42%200%202.4%200%203.16-.06a3.75%203.75%200%20001.43-.32%203.5%203.5%200%20001.53-1.53c.15-.29.26-.69.32-1.43l.03-.63-1.3-1.3c-.3-.3-.5-.5-.67-.64a.86.86%200%2000-.27-.18.75.75%200%2000-.46%200%20.86.86%200%2000-.27.18c-.16.13-.36.33-.67.64l-2.3%202.3a.75.75%200%2001-1.06%200l-.3-.3c-.3-.3-.5-.5-.67-.64a.86.86%200%2000-.27-.18.75.75%200%2000-.46%200%20.86.86%200%2000-.27.18c-.16.13-.36.33-.67.64L4.56%2015.5c.25.24.53.45.85.6.29.16.69.27%201.43.33zm9.39-6.27l.27.27V10c0-1.42%200-2.4-.06-3.16a3.75%203.75%200%2000-.32-1.43%203.5%203.5%200%2000-1.53-1.53%203.75%203.75%200%2000-1.43-.32A43.2%2043.2%200%200010%203.5c-1.42%200-2.4%200-3.16.06-.74.06-1.14.17-1.43.32a3.5%203.5%200%2000-1.53%201.53c-.15.29-.26.69-.32%201.43A43.2%2043.2%200%20003.5%2010c0%201.42%200%202.4.06%203.16.04.47.1.8.17%201.05l2.04-2.04.02-.02c.28-.28.52-.52.74-.7.23-.2.47-.37.77-.47.46-.15.94-.15%201.4%200%20.3.1.54.27.77.46.16.14.34.3.53.5l1.77-1.77.02-.02c.28-.28.52-.52.74-.7.23-.2.47-.37.77-.47.46-.15.94-.15%201.4%200%20.3.1.54.27.77.46.22.19.46.43.74.7zM2.54%204.73C2%205.8%202%207.2%202%2010c0%202.8%200%204.2.54%205.27a5%205%200%20002.19%202.19C5.8%2018%207.2%2018%2010%2018c2.8%200%204.2%200%205.27-.54a5%205%200%20002.19-2.19C18%2014.2%2018%2012.8%2018%2010c0-2.8%200-4.2-.55-5.27a5%205%200%2000-2.18-2.19C14.2%202%2012.8%202%2010%202c-2.8%200-4.2%200-5.27.54a5%205%200%2000-2.19%202.19zM7.25%206a1.25%201.25%200%20100%202.5%201.25%201.25%200%20000-2.5z%22%20fill%3D%22%235181b8%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E";
 			picwin_pic.style.height = "23px";
+			picwin_pic.style.filter = "grayscale(100%)";
 		dialog[0].appendChild(picwin);
 		picwin.appendChild(picwin_pic);
 	//тело
 	var picwin_block = document.createElement("div");
 		picwin_block.className = "autopic_expanded";
+		picwin_block.style.padding = "5px";
+		picwin_block.style.fontSize = "13px";
+		picwin_block.style.position = "relative";
+		picwin_block.style.bottom = "357px";
+		picwin_block.style.right = "285px";
+		picwin_block.style.width = "300px";
+		picwin_block.style.height = "300px";
+		picwin_block.style.backgroundColor = "rgb(58, 58, 58)";
+		picwin_block.style.borderRadius = "3%";
+		picwin_block.style.boxShadow = "1px 1px 3px rgb(40, 40, 40)";
 		picwin.appendChild(picwin_block);
 	//head
 	var picwin_block_head = document.createElement("div");
 		picwin_block_head.className = "autopic_head";
 		picwin_block_head.innerHTML = "AutoPic by Priboy313";
+		picwin_block_head.style.width = "100%";
+		picwin_block_head.style.borderBottom = "solid 1ox white";
+		picwin_block_head.style.textAlign = "center";
 		picwin_block.appendChild(picwin_block_head);
 	//content
 	var picwin_block_cont = document.createElement("div");
 		picwin_block_cont.className = "autopic_cont";
 		picwin_block_cont.innerHTML = "";
+		picwin_block_cont.style.paddingTop = "2px";
+		picwin_block_cont.style.height = "275px";
+		picwin_block_cont.style.width = "300px";
+		picwin_block_cont.style.marginTop = "2px";
 		picwin_block.appendChild(picwin_block_cont);
 	//left tab
 	var picwin_block_cont_left = document.createElement("div");
@@ -57,15 +80,20 @@
 				//оболочка
 				var cont_but = document.createElement("div");
 					cont_but.className = "autopic_pic_but";
+					cont_but.style.margin = "2px";
 				//имя
 				var nam = document.createElement("div")
 					nam.className = "autopic_pic_name";
+					nam.style.textAlign = "center";
 					nam.innerHTML = key;
 				//картинка
 				var min = document.createElement("input");
 					min.type = "image";
 					min.src = value;
 					min.className = "autopic_pic";
+					min.style.width = "140px";
+					min.style.verticalAlign = "middle";
+					min.style.boxShadow = "1px 2px 3px rgb(40, 40, 40)";
 					min.addEventListener("mouseup", function(){
 						var field = document.getElementsByClassName("im-chat-input--text")[0];
 							field.focus();
