@@ -1,106 +1,106 @@
 ._emoji_btn{
-	padding-right: 7px;
+	padding-right: 7px!important;
 }
 .autopic{
-	display: block;
-	font-size: 23px;
+	display: block!important;
+	font-size: 23px!important;
 	
-	width: 23px;
-	height: 23px;
-	margin: auto 3px auto 0;
+	width: 23px!important;
+	height: 23px!important;
+	margin: auto 3px auto 0!important;
 	
-	cursor: default;
+	cursor: default!important;
 }
 .autopic img{
-	-webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+	-webkit-filter: grayscale(100%)!important;
+    filter: grayscale(100%)!important;
 }
 
 .autopic_expanded{
-	padding: 5px;
-	font-size: 13px;
+	padding: 5px!important;
+	font-size: 13px!important;
 	
-	position: relative;
-		bottom: 357px;
-		right: 285px;
+	position: relative!important;
+		bottom: 357px!important;
+		right: 285px!important;
 		
-	width: 300px;
-	height: 300px;
-	background-color: rgb(58, 58, 58);
+	width: 300px!important;
+	height: 300px!important;
+	background-color: rgb(58, 58, 58)!important;
 		
-	border-radius: 3%;
+	border-radius: 3%!important;
 		
-	box-shadow: 1px 1px 3px rgb(40, 40, 40); 
+	box-shadow: 1px 1px 3px rgb(40, 40, 40)!important; 
 		
-	opacity: 0;
-	visibility: hidden;
+	opacity: 0!important;
+	visibility: hidden!important;
 	
-	transition-property:  opacity, visibility;
-    transition-duration: .3s, .3s;
-    transition-delay: .15s, .15s;
+	transition-property:  opacity, visibility!important;
+    transition-duration: .3s, .3s!important;
+    transition-delay: .15s, .15s!important;
 
 }
 .autopic:hover .autopic_expanded{
-	opacity: 1;
-	visibility: visible;
+	opacity: 1!important;
+	visibility: visible!important;
 }
 .autopic_head{
-	width: 100%;
-	border-bottom: solid 1px white;
-	text-align: center;
+	width: 100%!important;
+	border-bottom: solid 1px white!important;
+	text-align: center!important;
 }
 .autopic_cont{
-	overflow-y: scroll;
-	padding-top: 2px;
-	height: 275px;
-	width: 300px;
-	margin-top: 2px;
+	overflow-y: scroll!important;
+	padding-top: 2px!important;
+	height: 275px!important;
+	width: 300px!important;
+	margin-top: 2px!important;
 }
 .contTab{
-	display: inline-block;
-	width: 145px;
+	display: inline-block!important;
+	width: 145px!important;
 }
 .contL{
-	float: left;
-	margin-right: 3px;
+	float: left!important;
+	margin-right: 3px!important;
 }
 
 .autopic_pic_but{
-	margin: 2px;
+	margin: 2px!important;
 }
 .autopic_pic_name{
-	text-align: center;
+	text-align: center!important;
 }
 .autopic_pic{
-	width: 140px;
-	vertical-align: middle;
-	box-shadow: 1px 2px 3px rgb(40, 40, 40);
+	width: 140px!important;
+	vertical-align: middle!important;
+	box-shadow: 1px 2px 3px rgb(40, 40, 40)!important;
 }
 
 .autopic_cont::-webkit-scrollbar-button {
-	width:5px;
-	height:0px;
+	width:5px!important;
+	height:0px!important;
 }
 
 .autopic_cont::-webkit-scrollbar-track {
-	background-color:rgb(58, 58, 58);
+	background-color:rgb(58, 58, 58)!important;
 }
 
 .autopic_cont::-webkit-scrollbar-thumb {
-	background-color: white;
+	background-color: white!important;
 }
 
 .autopic_cont::-webkit-scrollbar-thumb:hover{
-	background-color:#56999f;
+	background-color:#56999f!important;
 }
 
 .autopic_cont::-webkit-resizer{
-	width:4px;
-	height:0px
+	width:4px!important;
+	height:0px!important;
 }
 
 .autopic_cont::-webkit-scrollbar{
-	-webkit-border-radius: 2%;
-	border-radius: 2%;
-	width: 4px;
+	-webkit-border-radius: 2%!important;
+	border-radius: 2%!important;
+	width: 4px!important;
 }
