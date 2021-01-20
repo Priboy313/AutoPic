@@ -1,6 +1,4 @@
-	//  https://vk.com/im
-	// write the tagname and press F2
-	
+
 	document.addEventListener("keydown", function(event) {
 	if(event.keyCode == 113 && document.activeElement.classList.contains("im-chat-input--text")){
 		var field = document.activeElement;
