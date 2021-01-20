@@ -1,7 +1,6 @@
 	//  https://vk.com/im
 	// write the tagname and press F2
-	//список тегов и ссылки на пикчи
-$.getScript("https://raw.githack.com/Priboy313/AutoPic/main/autopic_db_p.js", function(){
+
 	document.addEventListener("keydown", function(event) {
 	if(event.keyCode == 113 && document.activeElement.classList.contains("im-chat-input--text")){
 		var field = document.activeElement;
@@ -87,4 +86,3 @@ $.getScript("https://raw.githack.com/Priboy313/AutoPic/main/autopic_db_p.js", fu
 					cont__i++;
 				}
 		}});
-});
