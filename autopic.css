@@ -1,40 +1,13 @@
-._emoji_btn{
-	padding-right: 7px;
+.emoji_smile ._emoji_btn{
+	padding-right: 3px;
 }
-.autopic{
-	display: block;
-	font-size: 23px;
-
-	width: 23px;
-	height: 23px;
-	margin: auto 3px auto 0;
-
-	cursor: default;
+.im-chat-input--attach{
+	display: none;
 }
-.autopic img{
-	-webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
 .autopic_expanded{
-	padding: 5px;
-	font-size: 13px;
-
-	position: relative;
-		bottom: 357px;
-		right: 285px;
-
-	width: 300px;
-	height: 300px;
-	background-color: rgb(58, 58, 58);
-
-	border-radius: 3%;
-
-	box-shadow: 1px 1px 3px rgb(40, 40, 40); 
-
 	opacity: 0;
 	visibility: hidden;
-
+	
 	transition-property:  opacity, visibility;
     transition-duration: .3s, .3s;
     transition-delay: .15s, .15s;
@@ -44,18 +17,6 @@
 	opacity: 1;
 	visibility: visible;
 }
-.autopic_head{
-	width: 100%;
-	border-bottom: solid 1px white;
-	text-align: center;
-}
-.autopic_cont{
-	overflow-y: scroll;
-	padding-top: 2px;
-	height: 275px;
-	width: 300px;
-	margin-top: 2px;
-}
 .contTab{
 	display: inline-block;
 	width: 145px;
@@ -63,18 +24,6 @@
 .contL{
 	float: left;
 	margin-right: 3px;
-}
-
-.autopic_pic_but{
-	margin: 2px;
-}
-.autopic_pic_name{
-	text-align: center;
-}
-.autopic_pic{
-	width: 140px;
-	vertical-align: middle;
-	box-shadow: 1px 2px 3px rgb(40, 40, 40);
 }
 
 .autopic_cont::-webkit-scrollbar-button {
@@ -96,7 +45,7 @@
 
 .autopic_cont::-webkit-resizer{
 	width:4px;
-	height:0px;
+	height:0px
 }
 
 .autopic_cont::-webkit-scrollbar{
