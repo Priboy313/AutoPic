@@ -15,6 +15,7 @@
 		['бонжур', 'https://sun9-53.userapi.com/impg/jP0f2Y-oqlVcugQ7QzCQKEhoZ_DiTyO92Bh79Q/E1olQZFCkZ8.jpg?size=884x525&quality=96&proxy=1&sign=cea26a84b8b5d155d96dfe6b9b042d9a&type=album'],
 		['ересь','https://sun9-58.userapi.com/impg/4YbOSw7xH8hS3lHZTDs4MQLP3SvP21bS-wCo2g/RooLByNQOPk.jpg?size=600x400&quality=96&proxy=1&sign=ffe6d003e6239d4b35fa2d20add44bc7&type=album%27'],
 		['адаптируйся', 'https://sun9-54.userapi.com/impg/rTBYVfdTtz9BkNHZN5au8BSSp_-ggfWQKbeNmA/TP1NnrnMqdc.jpg?size=1080x603&quality=96&proxy=1&sign=103775d0c02b769242663d6590f0bc74&type=album'],
+		['богоугодно', 'https://sun9-6.userapi.com/impg/ofW02RS4umG3bedqE4uu4qi16u1ALie09T4CYA/29KhRBmAWYI.jpg?size=604x170&quality=96&proxy=1&sign=0119644e369c9a40fbab683e0165ece5&type=album'],
 		['дублируй_меня_полностью', 'и_поставь_тут_запятую']
 	]); 
 	document.addEventListener("keydown", function(event) {
