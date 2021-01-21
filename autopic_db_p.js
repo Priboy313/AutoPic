@@ -40,8 +40,8 @@ var Tags = new Map([
 	['против меня', 'https://sun9-17.userapi.com/impg/qnb1BGvZHUcyG0PBmEtcbrbKdFQQcZHjWbRmfA/lKSD6Bfs1t0.jpg?size=563x337&quality=96&proxy=1&sign=485508d8229c0c1fd297625f3b8a2fd2&type=album'],
 	['идея', 'https://sun9-51.userapi.com/impg/FqKpJYOYfVov5sDt8DIKHhHocqkVNVgp7VDG5w/mNiCP43Yg-U.jpg?size=910x909&quality=96&proxy=1&sign=fca4afc6d3adb4d74e5a8c620a557e88&type=album'],
 	['хуйню сморозил', 'https://sun9-4.userapi.com/impg/MQ4xmD54tRMxpNmkMzH1oR5otFwJiDqCqwLDJw/O-FyrPCg-LI.jpg?size=480x360&quality=96&proxy=1&sign=cbb1a3709f326e6917f15dab1a0eae24&type=album'],
-	['сложна', 'https://sun9-61.userapi.com/impg/jxzaHwy4lSvqng1N7jQqR3zTfYKUPWNLgqNWsA/A-HEVIlmVNg.jpg?size=1080x1080&quality=96&proxy=1&sign=81a7f3a4448f81970345473681290af7&type=album'],
 	['щито поделать', 'https://sun9-52.userapi.com/impg/sFEX5NdGod5hvjerUPzviZRiFQQaA-_CqorNCg/LfMWJUs_Znk.jpg?size=500x282&quality=96&proxy=1&sign=1b933ca8b58fd0733a4ebc7960b7f65d&type=album'],
+	['сложна', 'https://sun9-61.userapi.com/impg/jxzaHwy4lSvqng1N7jQqR3zTfYKUPWNLgqNWsA/A-HEVIlmVNg.jpg?size=1080x1080&quality=96&proxy=1&sign=81a7f3a4448f81970345473681290af7&type=album'],
 	['ахуеваю', 'https://sun9-49.userapi.com/impg/MXp5jxtElhfclDHBmA-6nCd-VS7jgSwBIj_NRA/a5ts17IBIII.jpg?size=960x674&quality=96&proxy=1&sign=227cf794a1b975c736f289d72df738d2&type=album'],
 	['дублируй_меня_полностью', 'и_поставь_тут_запятую']
 ]); 
