@@ -58,32 +58,18 @@ document.addEventListener("keydown", function(event) {
 		    "transition-delay": ".15s, .15s"
 		});
 		picwin.appendChild(picwin_block);
-	//стартовый ховер
-		$(picwin).hover(function(){
-				$(picwin_block).css({
+		picwin.addEventListener("mouseover", function(){
+			$(picwin_block).css({
 					"opacity": "1",
 					"visibility": "visible",
 				});
-			},function(){
-				$(picwin_block).css({
-					"opacity": "0",
-					"visibility": "hidden"
-				});
+		});
+		picwin.addEventListener("mouseout", function(){
+			$(picwin_block).css({
+				"opacity": "0",
+				"visibility": "hidden"
 			});
-	//ховер на интервале
-		setInterval(function() {
-			$(picwin).hover(function(){
-				$(picwin_block).css({
-					"opacity": "1",
-					"visibility": "visible",
-				});
-			},function(){
-				$(picwin_block).css({
-					"opacity": "0",
-					"visibility": "hidden"
-				});
-			});
-		}, 60000);
+		});
 	//head
 	var picwin_block_head = document.createElement("div");
 		picwin_block_head.className = "autopic_head";
